@@ -1600,7 +1600,7 @@
 	@media screen and (max-width: 1280px) {
 
 		.inner {
-			width: 65em;
+			width: 10em;
 		}
 
 	}
@@ -1608,7 +1608,7 @@
 	@media screen and (max-width: 980px) {
 
 		.inner {
-			width: 80%;
+			width: 10em;
 		}
 
 	}
@@ -1616,7 +1616,7 @@
 	@media screen and (max-width: 736px) {
 
 		.inner {
-			width: 90%;
+			width: 10em;
 		}
 
 	}
@@ -1825,7 +1825,7 @@
 
 .invert { 
 	filter: invert(100%);
-	width: 50%; 
+	width: 1em; 
 	float: right; 
 	overflow: hidden;
 
@@ -2522,7 +2522,7 @@ ul{
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0;
+		padding: 6em;
 		position: relative;
 	}
 
@@ -3874,10 +3874,10 @@ ul{
 /* Footer */
 
 	#footer {
-		background-color: #fff;
-		color: #000;
+		background-color: #333;
+		color: #fff;
 		padding: 6em 0 4em 0;
-		background: #000;
+		background: #333;
 	}
 
 
