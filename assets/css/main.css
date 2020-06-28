@@ -1691,7 +1691,7 @@
 		font-weight: 600;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
-		text-transform: uppercase;
+		text-transform: none;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -3280,7 +3280,7 @@ ul{
 		display: -ms-flexbox;
 		-ms-flex-pack: center;
 		-ms-flex-align: center;
-		padding: 8em 0 6em 0;
+		padding: 6em 0 10em 0;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3320,7 +3320,7 @@ ul{
 
 		}
 
-		#banner h1 {
+		/*#banner h1 {
 			font-size: 5em;
 			line-height: 1.1;
 			font-family: "Comic Sans MS", bold;
@@ -3329,12 +3329,19 @@ ul{
 			text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
 			text-transform: none;
 		}
+		*/
 
-		#banner p {
+		#banner h1 { font-family: "Arial Rounded MT Bold"; font-size: 66px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 66px; }
+		#banner h3 { font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 18px; } 
+		#banner p { font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
+		#banner blockquote { font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } 
+		#banner pre { font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18px; }
+
+		/* #banner p {
 			color: rgba(255, 255, 255, 0.85);
 			font-size: 1.75em;
 		}
-
+		*/
 	@-moz-keyframes more {
 		0% {
 			bottom: -3em;
@@ -3442,7 +3449,7 @@ ul{
 			transition-delay: 1.25s;
 			content: '';
 			display: block;
-			background-color: #000;
+			background-color: rgba(0,0,0,0.1);
 			height: 100%;
 			left: 0;
 			opacity: 0.45;
