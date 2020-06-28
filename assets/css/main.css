@@ -2128,16 +2128,7 @@
 
 
 /* team */
-.row.heading h2 {
-    color: #333;
-    font-size: 52.52px;
-    line-height: 95px;
-    font-weight: 400;
-    text-align: center;
-    margin: 0 0 40px;
-    padding-bottom: 20px;
-    text-transform: uppercase;
-}
+
 ul{
   margin:0;
   padding:0;
@@ -2165,25 +2156,14 @@ ul{
     box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
     border: 0;
 }
-.practice-area .inner h3{ 
-    color:#3c3c3c; 
-	font-size:24px; 
-	font-weight:500;
-	font-family: 'Poppins', sans-serif;
-	padding: 10px 0;
-}
-.practice-area .inner p{ 
-    font-size:14px; 
-	line-height:22px; 
-	font-weight:400;
-}
+
 .practice-area .inner img{
 	display:inline-block;
 }
 
 
 .our-webcoderskull{
-  background-color: #FFF;  
+  background-color: #4fa5db;  
 }
 .our-webcoderskull .cnt-block{ 
    float:left; 
