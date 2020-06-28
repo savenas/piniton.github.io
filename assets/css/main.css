@@ -19,6 +19,14 @@
 		vertical-align: baseline;
 	}
 
+		h1 { font-family: "Arial Rounded MT Bold"; font-size: 66px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 66px; }
+		h2 { font-family: "Arial Rounded MT Bold"; font-size: 38px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 38px; }
+		h3 { font-family: "Arial Rounded MT Bold"; font-size: 18px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 18px; } 
+		p { font-family: "Arial Rounded MT Bold"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
+		blockquote { font-family: "Arial Rounded MT Bold";font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } 
+		pre { font-family: "Arial Rounded MT Bold";font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18px; }
+
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -1616,7 +1624,7 @@
 /* Type */
 
 	body {
-		background-color: #1b1b1b;
+		background-color: none;
 		color: rgba(255, 255, 255, 0.75);
 	}
 
@@ -2539,24 +2547,24 @@ ul{
 	}
 
 		.wrapper.style1 {
-			background-color: #F64747;
-			color: #fdd1d1;
+			background-color: #fff;
+			color: #000;
 		}
 
 			.wrapper.style1 input, .wrapper.style1 select, .wrapper.style1 textarea {
-				color: #ffffff;
+				color: #000;
 			}
 
 			.wrapper.style1 a {
-				color: #ffffff;
+				color: #000;
 			}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
-				color: #ffffff;
+				color: #000;
 			}
 
 			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
-				color: #ffffff;
+				color: #000;
 			}
 
 			.wrapper.style1 blockquote {
@@ -3331,11 +3339,14 @@ ul{
 		}
 		*/
 
+		/*, "Helvetica Rounded", Arial, sans-serif; , "Helvetica Rounded", Arial, sans-serif; , "Helvetica Rounded", Arial, sans-serif; , "Helvetica Rounded", Arial, sans-serif;  */
+
 		#banner h1 { font-family: "Arial Rounded MT Bold"; font-size: 66px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 66px; }
-		#banner h3 { font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 18px; } 
-		#banner p { font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
-		#banner blockquote { font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } 
-		#banner pre { font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18px; }
+		#banner h2 { font-family: "Arial Rounded MT Bold"; font-size: 38px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 38px; }
+		#banner h3 { font-family: "Arial Rounded MT Bold"; font-size: 18px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 18px; } 
+		#banner p { font-family: "Arial Rounded MT Bold"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
+		#banner blockquote { font-family: "Arial Rounded MT Bold";font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } 
+		#banner pre { font-family: "Arial Rounded MT Bold";font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18px; }
 
 		/* #banner p {
 			color: rgba(255, 255, 255, 0.85);
@@ -3684,7 +3695,7 @@ ul{
 			transition-delay: 1.25s;
 			content: '';
 			display: block;
-			background-color: #000;
+			background-color: none;
 			height: 100%;
 			left: 0;
 			opacity: 0.45;
