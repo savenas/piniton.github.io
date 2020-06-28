@@ -224,6 +224,10 @@
 
 	}
 
+/* Column */
+
+
+
 
 
 
@@ -1828,7 +1832,6 @@
 	width: 1em; 
 	float: right; 
 	overflow: hidden;
-
 	 }
 
 
@@ -3308,6 +3311,14 @@ ul{
 
 		}
 
+		.pinfoot {
+			color: rgba(255, 255, 255, 0.5);
+			margin: 0 0 2em 0;
+			padding: 0;
+			text-align: right;
+		}
+
+
 		/*#banner h1 {
 			font-size: 5em;
 			line-height: 1.1;
@@ -3893,6 +3904,8 @@ ul{
 		#footer input[type="reset"],
 		#footer input[type="button"],
 		#footer button,
+		
+
 		#footer .button {
 			background-color: #5a5a5a;
 			color: #ffffff !important;
