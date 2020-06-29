@@ -19,6 +19,10 @@
 		vertical-align: baseline;
 	}
 
+	summary{
+		font-family: "Arial Rounded MT Bold"; font-size: 16px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 38px;
+	}
+
 		h1 { font-family: "Arial Rounded MT Bold"; font-size: 66px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 66px; }
 		h2 { font-family: "Arial Rounded MT Bold"; font-size: 38px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 38px; }
 		h3 { font-family: "Arial Rounded MT Bold"; font-size: 18px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 18px; } 
@@ -238,11 +242,12 @@
 
 /* Grid */
 
-	.row {
+	.container .row {
 		border-bottom: solid 1px transparent;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
+		display: inline-flex;
 	}
 
 	.row > * {
@@ -926,6 +931,23 @@
 
 	@media screen and (max-width: 980px) {
 
+		.container .row{
+			display: block!important
+		}
+
+		.container .row > * {
+			 padding: 0 0 0 5.5em;
+			 width: 27rem !important;
+		 }
+
+		selection .container .row > * {
+			padding: 0 0 0 1.5em;
+		}
+
+		.box{
+			width: 25rem!important;
+		}
+
 		.row > * {
 			padding: 0 0 0 1.5em;
 		}
@@ -1141,6 +1163,14 @@
 
 	@media screen and (max-width: 736px) {
 
+		.container .row{
+			display: block!important;
+		}
+
+		.box{
+			width: 25rem!important;
+		}
+
 		.row > * {
 			padding: 0 0 0 1.25em;
 		}
@@ -1355,6 +1385,10 @@
 	}
 
 	@media screen and (max-width: 480px) {
+
+		.container .row{
+			display: block!important;
+		}
 
 		.row > * {
 			padding: 0 0 0 1.25em;
